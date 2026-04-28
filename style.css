@@ -1,0 +1,72 @@
+body {
+    background: #121212; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    font-family: Arial, sans-serif;
+    background: #1e1e1e;
+    border-radius: 20px; 
+    padding: 20px;
+    width: 320px;
+    box-shadow: 0px 10px 30px rgba(0, 255, 150, 0.2);
+}
+
+/* MEN MODIFIKASYON AN ISIT LA */
+.calculator h2 {
+    color: #ffffff; 
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+#display {
+    width: 90%;
+    background: #2d2d2d;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    color: #00ff96; 
+    font-size: 2rem;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #444;
+}
+
+.operator-btn {
+    background: #ff9500; 
+}
+
+.equal-btn {
+    grid-column: span 2; 
+    width: 135px;
+    border-radius: 30px;
+    background: #00ff96;
+    color: #121212;
+}
