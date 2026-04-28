@@ -19,5 +19,5 @@ JE Rendrais le message plus spécifique Au lieu d'un simple "Erreur" ou "NaN", j
 Avant d'exécuter le calcul de la racine carrée je peux insérer une condition if pour vérifier si le nombre est inférieur à zéro.
 
 
-Liens du Projet Dépôt GitHub https://github.com/jackendychristopher-sketch/Jackendy-Calculatrice
+Liens du Projet Dépôt GitHub https://github.com/jackendychristopher-sketch/Jackendy-Calculatrice-Simple
 Application en ligne (Netlify) https://jackendycalculatrice.netlify.app
